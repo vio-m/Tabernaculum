@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tabernaculum</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicons ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+<!-- Stylesheet ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<!-- Icons ================================================== -->
+<script src="https://kit.fontawesome.com/876d4c73cd.js" crossorigin="anonymous"></script>
+<!--Map ===================================================== -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+<script type="module" src="./map.js"></script>
+</head>
+<body>
+<!-- Navigation ==========================================-->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="index.html"><i class="fa-solid fa-campground"></i> Tabernaculum<strong></strong></a> </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home" class="page-scroll">Home</a></li>
+        <li><a href="#services-section" class="page-scroll">Services</a></li>
+        <li><a href="#works-section" class="page-scroll">Activities</a></li>
+        <li><a href="#about-section" class="page-scroll">About Us</a></li>
+        <li><a href="#team-section" class="page-scroll">Events</a></li>
+        <li><a href="#contact-section" class="page-scroll">Contact</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+
+<!-- Header -->
+<header class="text-center" name="home">
+  <div class="intro-text">
+    <h1>Welcome to <strong>Tabernaculum</strong></h1>
+    <p>We are a full-service camping solutions provider.</p>
+    <a href="#services-section" class="btn btn-default btn-lg page-scroll">ENTER</a> </div>
+</header>
+
+<!-- Services Section -->
+<div id="services-section" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Services</h2>
+      <hr>
+      <div class="clearfix"></div>
+      <p>Luxury camping fully equipped with every amenity.</p>
+    </div>
+    <div class="space"></div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6 "> <i class="fa-solid fa-campground fa-2xl"></i>
+        <h4>Camping amenities</h4>
+        <p> Wi-Fi, private parking, edible garden, toilets and showers, hammocks, stargazing platform, summer movie nights, pet friendly.</p>
+      </div>
+      <div class="col-md-3 col-sm-6 "> <i class="fa-solid fa-person-hiking fa-2xl"></i>
+        <h4>Guided tours</h4>
+        <p>Nature trails for hiking and biking, mushrooming and berry picking, horseback riding.</p>
+      </div>
+      <div class="col-md-3 col-sm-6 "> <i class="fa-solid fa-person-biking fa-2xl"></i>
+        <h4>Rentals</h4>
+        <p>ATV, bike, kayak or fishing gear rentals .</p>
+      </div>
+      <div class="col-md-3 col-sm-6 "> <i class="fa-solid fa-fire fa-2xl"></i>
+        <h4>Cooking</h4>
+        <p>Communal kitchen, firepits and grills, coffee shop, food truck, vending machines.</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+<!-- Portfolio Section -->
+<div id="works-section">
+  <div class="container"> <!-- Container -->
+    <div class="section-title text-center center">
+      <h2>Activities</h2>
+      <hr>
+      <div class="clearfix"></div>
+      <p>Add even more adventure to your vacation with a guided outdoor activities as kayaking, biking, or horseback riding..</p>
+    </div>
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="#" data-filter="*" class="active">All</a></li>
+            <li><a href="#" data-filter=".guid">Guided</a></li>
+            <li><a href="#" data-filter=".free">Free</a></li>
+          </ol>
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-4 col-lg-4 free">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/cooking.jpg" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Outdoor Cooking</h4>
+                <small>Free</small>
+                <div class="clearfix"></div>
+              </div>
+              <img src="img/portfolio/cooking.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 free">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/hiking.jpg" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Hiking</h4>
+                <small>Free</small>
+                <div class="clearfix"></div>
+              </div>
+              <img src="img/portfolio/hiking.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 guid">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/horseback-riding.jpg" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Horseback Riding</h4>
+                <small>Guided</small>
+                <div class="clearfix"></div>
+              </div>
+              <img src="img/portfolio/horseback-riding.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 guid">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/kayaking.jpg" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Kayaking</h4>
+                <small>Guided</small>
+                <div class="clearfix"></div>
+              </div>
+              <img src="img/portfolio/kayaking.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 guid free">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/mountain-biking.jpg" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Mountain Biking</h4>
+                <small>Guided, Free</small>
+                <div class="clearfix"></div>
+              </div>
+              <img src="img/portfolio/mountain-biking.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 guid">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/zipline.jpg" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Zipline</h4>
+                <small>Guided</small>
+                <div class="clearfix"></div>
+              </div>
+              <img src="img/portfolio/zipline.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- About Section -->
+<div id="about-section">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>About Us</h2>
+      <hr>
+      <div class="clearfix"></div>
+      <p>Meet the team.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-6"> <img src="img/about.jpg" class="img-responsive"> </div>
+      <div class="col-md-6">
+        <div class="about-text">
+          <h4>Who We Are</h4>
+          <p>People who love outdoor activities, hiking or just spending a few days away from cities or classical accommodation and restauration facilities.</p>
+          <h4>What We Do</h4>
+          <p>We offer a variety of alternative accommodation spaces, from standard camping to heated glamping yurts, watchtowers and hammocks for sleeping under the starry sky in a wild natural landscape.</p>
+          <h4>Why Choose Us</h4>
+          <p>Because we provide all the conditions of classical cabin or mountain bungalows, in a large secured space with more freedom of movement than anywhere else. And all this in a location not far from the main access routes and really close to other touristic objectives.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Achievements Section -->
+<div id="achievements" class="section dark-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <span class="count">1,200</span>
+          <h4>Happy Clients</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <span class="count">125</span>
+          <h4>Km of Trail</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <span class="count">36</span>
+          <h4>SqKm of Lake</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <span class="count">48</span>
+          <h4>Cozy Beds</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Team Section -->
+<div id="team-section" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Events</h2>
+      <hr>
+      <p>Organized events and groups.</p>
+    </div>
+    <div id="row">
+      <div class="col-md-3 col-sm-6 team">
+        <div class="thumbnail"> <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
+          <div class="caption">
+            <h3>Corporate</h3>
+            <p></p>
+            <p>Outdoor team building & corporate activities.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 team">
+        <div class="thumbnail"> <img src="img/team/02.jpg" alt="..." class="img-circle team-img">
+          <div class="caption">
+            <h3>Summer Camp</h3>
+            <p></p>
+            <p>Outdoor & Adventure summer program for kids.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 team">
+        <div class="thumbnail"> <img src="img/team/03.jpg" alt="..." class="img-circle team-img">
+          <div class="caption">
+            <h3>SommerFest music festival</h3>
+            <p></p>
+            <p>Join the 3-day music festival held every year on Midsommer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 team">
+        <div class="thumbnail"> <img src="img/team/04.jpg" alt="..." class="img-circle team-img">
+          <div class="caption">
+            <h3>Motorcycle meetup</h3>
+            <p></p>
+            <p>Annual "Bikers Club" meetup.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contact Section -->
+<div id="contact-section" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Contact Us</h2>
+      <hr>
+      <p>Ways you can reach us:</p>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <div class="col-md-4"> <i class="fa fa-map-marker"></i>
+        <p>420069 Main Street,<br>
+          Bistrita, BN, Romania</p>
+      </div>
+      <div class="col-md-4"> <i class="fa fa-envelope-o"></i>
+        <p>mail@tabernaculum.com</p>
+      </div>
+      <div class="col-md-4"> <i class="fa fa-phone"></i>
+        <p> +40 740 123 456</p>
+      </div>
+    </div>
+
+      <iframe id="map" scrolling="no" marginheight="0" marginwidth="0" frameborder="0" src="https://maps.google.com/maps?q=Sat+stramba+bistrita&output=embed&iwloc=near"></iframe>
+
+  </div>
+</div>
+</div>
+<div id="social-section">
+  <div class="container">
+    <div class="social">
+      <ul>
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-github"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="container">
+    <div class="fnav">
+      <p>Copyright &copy; Tabernaculum</p>
+    </div>
+  </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/jquery.counterup.js"></script> 
+<script type="text/javascript" src="js/waypoints.js"></script> 
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+
+<!-- Javascripts
+    ================================================== --> 
+<script type="text/javascript" src="js/main.js"></script>
+
+
+</body>
+</html>
